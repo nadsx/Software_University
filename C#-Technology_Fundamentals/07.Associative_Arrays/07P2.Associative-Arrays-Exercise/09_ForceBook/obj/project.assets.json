@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS NB\\source\\repos\\Associative-Arrays-Exercise\\09_ForceBook\\09_ForceBook.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS NB\\Desktop\\CSharp - TechnologyFundamentalsJan2019\\C#-Technology_Fundamentals\\07.Associative_Arrays\\07P2.Associative-Arrays-Exercise\\09_ForceBook\\09_ForceBook.csproj",
       "projectName": "09_ForceBook",
-      "projectPath": "C:\\Users\\ASUS NB\\source\\repos\\Associative-Arrays-Exercise\\09_ForceBook\\09_ForceBook.csproj",
+      "projectPath": "C:\\Users\\ASUS NB\\Desktop\\CSharp - TechnologyFundamentalsJan2019\\C#-Technology_Fundamentals\\07.Associative_Arrays\\07P2.Associative-Arrays-Exercise\\09_ForceBook\\09_ForceBook.csproj",
       "packagesPath": "C:\\Users\\ASUS NB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS NB\\source\\repos\\Associative-Arrays-Exercise\\09_ForceBook\\obj\\",
+      "outputPath": "C:\\Users\\ASUS NB\\Desktop\\CSharp - TechnologyFundamentalsJan2019\\C#-Technology_Fundamentals\\07.Associative_Arrays\\07P2.Associative-Arrays-Exercise\\09_ForceBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

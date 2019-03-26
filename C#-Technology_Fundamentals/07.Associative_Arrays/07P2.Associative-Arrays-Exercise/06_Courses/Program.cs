@@ -9,7 +9,6 @@ namespace _06_Courses
 		static void Main(string[] args)
 		{
 			var courses = new Dictionary<string, List<string>>();
-			var students = new List<string>();
 
 			string input = Console.ReadLine();
 

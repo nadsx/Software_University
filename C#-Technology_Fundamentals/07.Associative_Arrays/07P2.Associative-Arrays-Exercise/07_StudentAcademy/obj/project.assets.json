@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS NB\\source\\repos\\Associative-Arrays-Exercise\\07_StudentAcademy\\07_StudentAcademy.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS NB\\Desktop\\CSharp - TechnologyFundamentalsJan2019\\C#-Technology_Fundamentals\\07.Associative_Arrays\\07P2.Associative-Arrays-Exercise\\07_StudentAcademy\\07_StudentAcademy.csproj",
       "projectName": "07_StudentAcademy",
-      "projectPath": "C:\\Users\\ASUS NB\\source\\repos\\Associative-Arrays-Exercise\\07_StudentAcademy\\07_StudentAcademy.csproj",
+      "projectPath": "C:\\Users\\ASUS NB\\Desktop\\CSharp - TechnologyFundamentalsJan2019\\C#-Technology_Fundamentals\\07.Associative_Arrays\\07P2.Associative-Arrays-Exercise\\07_StudentAcademy\\07_StudentAcademy.csproj",
       "packagesPath": "C:\\Users\\ASUS NB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS NB\\source\\repos\\Associative-Arrays-Exercise\\07_StudentAcademy\\obj\\",
+      "outputPath": "C:\\Users\\ASUS NB\\Desktop\\CSharp - TechnologyFundamentalsJan2019\\C#-Technology_Fundamentals\\07.Associative_Arrays\\07P2.Associative-Arrays-Exercise\\07_StudentAcademy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

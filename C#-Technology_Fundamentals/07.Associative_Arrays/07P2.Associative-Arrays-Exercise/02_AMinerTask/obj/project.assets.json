@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS NB\\source\\repos\\Associative-Arrays-Exercise\\02_AMinerTask\\02_AMinerTask.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS NB\\Desktop\\CSharp - TechnologyFundamentalsJan2019\\C#-Technology_Fundamentals\\07.Associative_Arrays\\07P2.Associative-Arrays-Exercise\\02_AMinerTask\\02_AMinerTask.csproj",
       "projectName": "02_AMinerTask",
-      "projectPath": "C:\\Users\\ASUS NB\\source\\repos\\Associative-Arrays-Exercise\\02_AMinerTask\\02_AMinerTask.csproj",
+      "projectPath": "C:\\Users\\ASUS NB\\Desktop\\CSharp - TechnologyFundamentalsJan2019\\C#-Technology_Fundamentals\\07.Associative_Arrays\\07P2.Associative-Arrays-Exercise\\02_AMinerTask\\02_AMinerTask.csproj",
       "packagesPath": "C:\\Users\\ASUS NB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS NB\\source\\repos\\Associative-Arrays-Exercise\\02_AMinerTask\\obj\\",
+      "outputPath": "C:\\Users\\ASUS NB\\Desktop\\CSharp - TechnologyFundamentalsJan2019\\C#-Technology_Fundamentals\\07.Associative_Arrays\\07P2.Associative-Arrays-Exercise\\02_AMinerTask\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

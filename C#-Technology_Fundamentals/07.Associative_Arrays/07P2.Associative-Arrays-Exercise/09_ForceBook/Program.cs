@@ -28,18 +28,9 @@ namespace _09_ForceBook
 						forces[currentSide] = new List<string>();
 					}
 
-					var isValid = false;
+					bool isContains = forces.Any(x => x.Value.Contains(currentUser));
 
-					foreach (var force in forces)
-					{
-						if (force.Value.Contains(currentUser))
-						{
-							isValid = true;
-							break;
-						}
-					}
-
-					if (!forces[currentSide].Contains(currentUser) && isValid == false)
+					if (!forces[currentSide].Contains(currentUser) && isContains == false)
 					{
 						forces[currentSide].Add(currentUser);
 					}
@@ -49,11 +40,11 @@ namespace _09_ForceBook
 					currentUser = command[0];
 					currentSide = command[1];
 
-					foreach (var side in forces)
+					foreach (var force in forces)
 					{
-						if (side.Value.Contains(currentUser))
+						if (force.Value.Contains(currentUser))
 						{
-							side.Value.Remove(currentUser);
+							force.Value.Remove(currentUser);
 							break;
 						}
 					}
@@ -74,12 +65,12 @@ namespace _09_ForceBook
 				input = Console.ReadLine();
 			}
 
-			var result = forces
+			var sortedForces = forces
 				.OrderByDescending(x => x.Value.Count)
 				.ThenBy(x => x.Key)
 				.ToDictionary(k => k.Key, v => v.Value);
 
-			foreach (var force in result)
+			foreach (var force in sortedForces)
 			{
 				if (force.Value.Count == 0)
 					continue;
