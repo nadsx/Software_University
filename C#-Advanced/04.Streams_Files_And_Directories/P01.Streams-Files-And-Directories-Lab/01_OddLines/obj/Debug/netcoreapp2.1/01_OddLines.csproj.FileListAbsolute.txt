@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\01_OddLines\bin\Debug\netcoreapp2.1\01_OddLines.deps.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\01_OddLines\bin\Debug\netcoreapp2.1\01_OddLines.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\01_OddLines\bin\Debug\netcoreapp2.1\01_OddLines.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\01_OddLines\bin\Debug\netcoreapp2.1\01_OddLines.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\01_OddLines\bin\Debug\netcoreapp2.1\01_OddLines.pdb
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\01_OddLines\obj\Debug\netcoreapp2.1\01_OddLines.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\01_OddLines\obj\Debug\netcoreapp2.1\01_OddLines.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\01_OddLines\obj\Debug\netcoreapp2.1\01_OddLines.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\01_OddLines\obj\Debug\netcoreapp2.1\01_OddLines.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\01_OddLines\obj\Debug\netcoreapp2.1\01_OddLines.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\01_OddLines\obj\Debug\netcoreapp2.1\01_OddLines.pdb
