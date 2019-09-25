@@ -20,7 +20,8 @@
 
 			Console.WriteLine(rows);
 			Console.WriteLine(cols);
-
+			//update! Console.WriteLine(matrix.Cast<int>().Sum());
+			//without the bottom code
 			int sum = 0;
 
 			foreach(var item in matrix)
