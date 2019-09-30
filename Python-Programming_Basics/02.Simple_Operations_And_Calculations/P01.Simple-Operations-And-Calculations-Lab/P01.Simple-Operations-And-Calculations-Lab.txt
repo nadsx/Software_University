@@ -1,0 +1,85 @@
+1
+==================================
+
+name = input()
+output = f'Hello, {name}!'
+print(output)
+
+2
+==================================
+
+first_name = input()
+last_name = input()
+age = int(input())
+town = input()
+
+print(f'You are {first_name} {last_name}, a {age}-years old person from {town}.')
+
+3
+==================================
+
+side = int(input())
+area = side * side
+print(area)
+
+4
+==================================
+
+inches = float(input())
+centimeters = inches * 2.54
+print('%.2f' % centimeters)
+
+5
+==================================
+
+architect_name = input()
+projects_count = int(input())
+time_needed = projects_count * 3
+print(f"The architect {architect_name} will need {time_needed} hours to complete {projects_count} project/s.")
+
+6
+==================================
+
+#alt + enter => pi (from math import pi)
+
+from math import pi
+
+radius = float(input())
+area = radius**2 * pi
+perimeter = 2 * pi * radius
+print(f'{area:.2f}')
+print(f'{perimeter:.2f}')
+
+7
+==================================
+
+dogs_count = int(input())
+other_animals_count = int(input())
+dogs_food_price = dogs_count * 2.5
+other_animals_food_price = other_animals_count * 4
+food_price_total = dogs_food_price + other_animals_food_price
+print(f'{food_price_total:.2f} lv.')
+
+8
+==================================
+
+yard_area = float(input())
+price = yard_area * 7.61
+price_with_discount = price - price * 0.18
+#discount!!
+print(f'The final price is: {price_with_discount:.2f} lv.')
+#final price!!
+print(f'The discount is: {price - price_with_discount:.2f} lv.')
+
+9
+==================================
+
+length = int(input())
+width = int(input())
+height = int(input())
+percent_other_stuff = float(input())
+aquarium_volume = length * width * height
+liters = aquarium_volume / 1000
+percent_other_stuff = percent_other_stuff / 100
+liters = liters - liters * percent_other_stuff
+print(f'{liters:.3f}')
