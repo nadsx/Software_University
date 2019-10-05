@@ -51,9 +51,11 @@ namespace _03_WordCount
 
 					foreach (var word in words)
 					{
-						if (wordsDict.ContainsKey(word.ToLower()))
+                        string currentWord = word.ToLower();
+
+                        if (wordsDict.ContainsKey(currentWord))
 						{
-							wordsDict[word.ToLower()]++;
+							wordsDict[currentWord]++;
 						}
 					}
 				}
@@ -61,9 +63,9 @@ namespace _03_WordCount
 
 			using (var writer = new StreamWriter("Output.txt"))
 			{
-				foreach (var words in wordsDict.OrderByDescending(x => x.Value))
+				foreach (var word in wordsDict.OrderByDescending(x => x.Value))
 				{
-					var currentLine = (words.Key + " - " + words.Value);
+					var currentLine = (word.Key + " - " + word.Value);
 
 					writer.WriteLine(currentLine);
 				}

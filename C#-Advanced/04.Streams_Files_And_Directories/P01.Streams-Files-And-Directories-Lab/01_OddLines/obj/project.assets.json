@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS NB\\.nuget\\packages\\": {},
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS NB\\source\\repos\\Streams-Files-And-Directories-Lab\\01_OddLines\\01_OddLines.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\repos\\20.09-Exercises\\01_OddLines\\01_OddLines.csproj",
       "projectName": "01_OddLines",
-      "projectPath": "C:\\Users\\ASUS NB\\source\\repos\\Streams-Files-And-Directories-Lab\\01_OddLines\\01_OddLines.csproj",
-      "packagesPath": "C:\\Users\\ASUS NB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS NB\\source\\repos\\Streams-Files-And-Directories-Lab\\01_OddLines\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\repos\\20.09-Exercises\\01_OddLines\\01_OddLines.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\repos\\20.09-Exercises\\01_OddLines\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ASUS NB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

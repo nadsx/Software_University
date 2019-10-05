@@ -3,31 +3,29 @@ using System.IO;
 
 namespace _01_OddLines
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			using (var reader = new StreamReader("../../../Input.txt"))
-			{
-				int counter = 0;
+    class Program
+    {
+        static void Main(string[] args)
+        {         
+            using(var reader = new StreamReader("Input.txt"))
+            {
+                using (var writer = new StreamWriter("Output.txt"))
+                {
+                    int counter = 0;
 
-				while (true)
-				{
-					string currentLine = reader.ReadLine();
+                    while (!reader.EndOfStream)
+                    {
+                        string line = reader.ReadLine();
 
-					if (currentLine == null)
-					{
-						break;
-					}
+                        if (counter % 2 == 1)
+                        {
+                            writer.WriteLine(line);
+                        }
 
-					if (counter % 2 != 0)
-					{
-						Console.WriteLine(currentLine);
-					}
-
-					counter++;
-				}
-			}
-		}
-	}
+                        counter++;
+                    }
+                }
+            }
+        }
+    }
 }
