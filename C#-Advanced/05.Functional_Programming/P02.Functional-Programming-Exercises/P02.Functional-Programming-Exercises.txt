@@ -257,6 +257,7 @@ Description:
 Dokato stigne sravnenieto do return 1(ili kraq na masiva) 
 za da premine na drugoto chislo v masiva da sraznqva!
 ot (x, y) - X e GLAVNO ot (a, b) - A e glavno!
+"-1", "1", "0" mesti indexa na chisloto, ne realno chisloto!
 ---------------------------
 
             int[] numbers = Console.ReadLine()
