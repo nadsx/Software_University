@@ -9,12 +9,14 @@ function solve(arr) {
     let distanceSecondPointToOrigin = Math.sqrt(Math.pow(x2, 2) + Math.pow(y2, 2));
     let distancePoints = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
-    if (distanceFirstPointToOrigin % 1 === 0) {
+    if (distanceFirstPointToOrigin % 1 === 0) { // A distance between two points is considered valid, if it is an integer value. 
         isValidFirstPoint = true;
     }
+	
     if (distanceSecondPointToOrigin % 1 === 0) {
         isValidSecondPoint = true;
     }
+	
     if (distancePoints % 1 === 0) {
         isValidTwoPoint = true;
     }

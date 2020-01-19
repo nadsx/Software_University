@@ -3,10 +3,10 @@ function solve(arg1, arg2, arg3) {
     let stepsNumber = Number(arg1);
     let stepsMetersHr = Number(arg2);
     let studentSpeed = Number(arg3);
-
-    let distanceMeters = stepsNumber * stepsMetersHr;
-    let speedMetersSec = studentSpeed / 3.6;
-    let time = distanceMeters / speedMetersSec;
+	
+    let distanceMeters = stepsNumber * stepsMetersHr; // km/h -> m/s ( /3.6 ); m/s -> km/h ( x3.6 );
+    let speedMetersSec = studentSpeed / 3.6; // (1 hour = 3600 seconds, 1km = 1000m) km/h => m/s => 1000/3600(1 x 1000/3600) = 1/3.6! m/s
+    let time = distanceMeters / speedMetersSec; // distance = speed x time => time = distance/speed
     let rest = Math.floor(distanceMeters / 500);
 
     let timeMin = Math.floor(time / 60);

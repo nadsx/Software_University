@@ -2,8 +2,11 @@ function solve(array) {
 
     let number = +array.shift();
 
+	// Parentheses are optional when there's 
+	//only one parameter name: (singleParam) => { statements }
+	
     let operations = {
-        chop: (x) => {
+        chop: (x) => {  
             return (x / 2);
         },
         dice: (x) => {
